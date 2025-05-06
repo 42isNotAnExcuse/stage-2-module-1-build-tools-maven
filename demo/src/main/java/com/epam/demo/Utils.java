@@ -6,6 +6,6 @@ public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
         return !args.isEmpty() && args.stream()
                 .allMatch(n ->
-                        n != null && !n.isEmpty() && Integer.parseInt(n) > 0);
+                        n != null && !n.isEmpty() && Integer.parseInt(n) >= 0);
     }
 }
