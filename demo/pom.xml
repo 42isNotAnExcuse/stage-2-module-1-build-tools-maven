@@ -12,9 +12,9 @@
 
     <artifactId>demo</artifactId>
 
-<!--    <properties>-->
-<!--        <junit.version>5.8.1</junit.version>-->
-<!--    </properties>-->
+    <properties>
+        <junit.version>5.8.1</junit.version>
+    </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>
