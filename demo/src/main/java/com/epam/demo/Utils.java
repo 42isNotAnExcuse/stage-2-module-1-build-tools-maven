@@ -5,7 +5,7 @@ import java.util.List;
 public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
         try {
-            return !args.isEmpty() && args.stream()
+            return args != null && !args.isEmpty() && args.stream()
                     .allMatch(n ->
                             n != null && !n.isEmpty() && !n.equals(" ")
                                     && (Integer.parseInt(n) > 0
